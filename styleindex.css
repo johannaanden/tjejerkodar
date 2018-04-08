@@ -1,0 +1,46 @@
+/*Egenskaper som gälle4r för allt som ligger i body:n*/
+body {
+  background-image: url(./Bilder/Skog.jpg); /*Bakgrundsbild hämtad från min mapp där även koden ligger*/
+  background-repeat: no-repeat; /*Bilden som används som bakgrundsbild uprepar sig EJ*/
+  background-position: center center; /*Bilden som används som bakgrund är centrerad*/
+  background-attachment: fixed; /*Bilden som används som bakgrundsbild kan EJ scrollas, utan är fixerad*/
+  font-family: Verdana; /*Val av typsnitt*/
+}
+
+/*Body-tagen har fått en ID/box, för att kunna använda felxbox*/
+ #box_container {
+   display: flex; /*Anger att flexbox ska användas*/
+   justify-content: center; /*Justerar att innehållet ska vara centrerat i ledet justify-content - ledet*/
+   align-items: center; /*Justerar att innehållet ska vara centrerat i ledet align-items - ledet*/
+   height: 700px; /*Bestämmer höjden av boxen*/
+ }
+
+#box {
+   display: flex; /**/
+   justify-content: center;
+   align-items: center;
+   width: 550px;
+   height: 250px;
+   margin: 35px;
+   padding: 20px;
+   box-shadow: 5px 5px 10px rgba(0,0,0, 0.4);
+   background-color: rgba(255,255,255, 0.3);
+ }
+
+ #box_text {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   width: 560px;
+   height: 260px;
+   margin: 0px;
+   padding: 0px;
+   border: 15px solid #FFFFFF;
+ }
+
+a:link, a:visited {
+  color: #000000;
+  font-size: 40px;
+  text-decoration:none;
+}

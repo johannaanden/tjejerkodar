@@ -1,0 +1,215 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #FFFFFF;
+  font-family: Verdana;
+}
+
+/*Class för menyrad*/
+.container {
+  /*flexbox*/
+   display: flex;
+   justify-content: center;
+
+  /*styling*/
+   background: #FFFFFF;
+
+ }
+
+/*Class för menyrad där länkarna i menyn ligger*/
+ .item {
+   /*flexbox*/
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   /*styling*/
+   width: 100px;
+   height: 20px;
+   margin: 0px;
+   background: #FFFFFF;
+ }
+
+/*Styling för länkar samt besökta länkar*/
+ a:link, a:visited {
+   color: #000000;
+   font-size: 10px;
+   text-decoration:none;
+ }
+
+/*Huvudbox som resterande boxar ligger i*/
+.mainbox {
+  display: flex;
+  justify-content: center;
+  border: 10px solid;
+  border-color: rgba(216,216,216, 0.3);
+  margin-top: 0px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/*Box där jag placerar allt innehåll i*/
+.textbox {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: 14px;
+  word-wrap: break-word;
+  overflow-y: scroll;
+  padding: 10px;
+  height: auto;
+  text-align:left;
+  width: 60%;
+}
+
+.textbox h1 {
+  font-size: 18px;
+}
+
+/*Style för profilbild på sidan Om mig*/
+.profilepic {
+margin: 10px;
+}
+
+
+/* HEM -> Header bild*/
+.hero-hem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-image: url("./Bilder/Skog_utsikt.jpg");
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding: 50px 0 0 0;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* WEBBTEKNIKER -> Header bild*/
+.hero-webbtekniker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-image: url("./Bilder/Play.jpg");
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding: 50px 0 0 0;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* INTERNET -> Header bild*/
+.hero-internet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-image: url("./Bilder/Utsikt2.jpg");
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding: 50px 0 0 0;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* ETIK OCH INTEGRITET -> Header bild*/
+.hero-eoi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-image: url("./Bilder/Valfrihet.jpg");
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding: 50px 0 0 0;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* OM MIG -> Header bild*/
+.hero-ommig {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-image: url("./Bilder/Lake.jpg");
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding: 50px 0 0 0;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* KONTAKT -> Header bild*/
+.hero-kontakt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-image: url("./Bilder/Par.jpg");
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding: 50px 0 0 0;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* INTERNETS HISTORIA -> Header bild*/
+.hero-historia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-image: url("./Bilder/TV_mys.jpg");
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding: 50px 0 0 0;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* INTERNETS SAMHÄLLSPÅVEKAN -> Header bild*/
+.hero-samhalle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-image: url("./Bilder/TV_mys2.jpg");
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding: 50px 0 0 0;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* Header ALLA SIDOR - Huvudrubrik*/
+.main-heading {
+  font-size: 35px;
+}
+
+/* Header ALLA SIDOR - Liten text*/
+.about {
+  font-size: 25px;
+}
+
+/*Footer med bla. copyright info*/
+.footer {
+  font-size: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items:center;
+  height: 40px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 10px;
+}
