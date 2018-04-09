@@ -1,6 +1,6 @@
 /*Egenskaper som gälle4r för allt som ligger i body:n*/
 body {
-  background-image: url(./Bilder/Skog.jpg); /*Bakgrundsbild hämtad från min mapp där även koden ligger*/
+  background-image: url(./Bilder/index.jpg); /*Bakgrundsbild hämtad från min mapp där även koden ligger*/
   background-repeat: no-repeat; /*Bilden som används som bakgrundsbild uprepar sig EJ*/
   background-position: center center; /*Bilden som används som bakgrund är centrerad*/
   background-attachment: fixed; /*Bilden som används som bakgrundsbild kan EJ scrollas, utan är fixerad*/
